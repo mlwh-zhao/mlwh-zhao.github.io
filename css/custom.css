@@ -1,0 +1,20 @@
+/* 调整头像大小 */
+.kira-sidebar .kira-avatar img {
+    width: 150px;  /* 头像宽度 */
+    height: 150px; /* 头像高度 */
+    border-radius: 50%; /* 保持圆形 */
+    object-fit: cover; /* 确保图片填充整个区域 */
+}
+
+/* 调整文章封面图片大小 */
+.kira-post-cover img {
+    max-height: 400px; /* 文章封面最大高度 */
+    object-fit: cover; /* 确保图片填充整个区域 */
+}
+
+/* 调整背景图片大小和位置 */
+.kira-background {
+    background-size: cover; /* 图片填充整个背景 */
+    background-position: center; /* 图片居中 */
+    opacity: 0.8; /* 可以调整背景透明度，1为完全不透明，0为完全透明 */
+} 
